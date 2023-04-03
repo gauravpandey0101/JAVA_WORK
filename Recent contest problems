@@ -22,7 +22,7 @@ int main(void)
 	        {
 	            ttime++;
 	        }
-	    }
+	    } 
 	    printf("%d %d\n",start,ttime);
 	}
 	return 0;
