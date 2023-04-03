@@ -25,5 +25,5 @@ int main(void)
 	    } 
 	    printf("%d %d\n",start,ttime);
 	}
-	return 0;
+	return 0; 
 } 
