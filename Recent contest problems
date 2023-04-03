@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <string.h>
+int main(void) 
+{
+	int t,i,j;
+	scanf("%d",&t);
+	for(j=0;j<t;j++)
+	{
+	    int n,start=0,ttime=0,result;
+	    scanf("%d",&n);
+	    for(i=0;i<n;i++)
+	    {
+	        char str[100];
+	        scanf("%s",str);
+	        result =strcmp("START38",str);
+	        if(result == 0)
+	        {
+	            start++;
+	        }
+	        else
+	        {
+	            ttime++;
+	        }
+	    }
+	    printf("%d %d\n",start,ttime);
+	}
+	return 0;
+}
