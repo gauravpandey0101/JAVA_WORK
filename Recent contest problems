@@ -10,7 +10,7 @@ int main(void)
 	    int n,start=0,ttime=0,result;
 	    scanf("%d",&n);
 	    for(i=0;i<n;i++)
-	    {
+	    { 
 	        char str[100];
 	        scanf("%s",str);
 	        result =strcmp("START38",str);
